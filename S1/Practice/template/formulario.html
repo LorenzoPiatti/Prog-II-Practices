@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="galeria.html">Galeria</a>
+            <a href="tabla.html">Tabla</a>
+            <a href="lista.html">Lista</a>
+            <a href="formulario.html">Formulario</a>
+            <a href="https://www.google.com" target="_blank">Google</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Formulario</h1>
+        <form action="https://formspree.io/" method="post" target="_blank">
+
+            <label for="firstname">Nombre: </label>
+            <input type="text" name="firstname" id="firstname">
+            <br>
+            <label for="lastname">Apellido: </label>
+            <input type="text" name="lastname" id="lastname">
+            <br>
+            <label for="birthday">Fecha nacimiento: </label>
+            <input type="date" name="birthday" id="birthday">
+            <br>
+            <label for="age">Edad: </label>
+            <input type="number" name="age" id="age">
+            <br>
+            <h2>Genero:</h2>
+            <input type="radio" name="genero" value="masculino"> Masculino
+            <input type="radio" name="genero" value="femenino"> Femenino
+            <input type="radio" name="genero" value="nobinario"> No Binario
+            <br>
+            <h2>Area de desarrollo:</h2>
+            <input type="radio" name="area" value="appweb"> App Web
+            <input type="radio" name="area" value="analisisdedatos"> Analisis de datos
+            <input type="radio" name="area" value="desarrollodejuegos"> Desarrollo de juegos
+            <br>
+            <h2>Tecnologia:</h2>
+            <input type="checkbox" name="tecnologia" value="html"> HTML
+            <input type="checkbox" name="tecnologia" value="css"> CSS
+            <input type="checkbox" name="tecnologia" value="js"> JavaScript
+            <br>
+            <h2>Navegador:</h2>
+            <input type="checkbox" name="navegador" value="chrome"> Chrome
+            <input type="checkbox" name="navegador" value="opera"> Opera
+            <input type="checkbox" name="navegador" value="safari"> Safari
+            <input type="checkbox" name="navegador" value="firefox"> Firefox
+            <input type="checkbox" name="navegador" value="edge"> Edge
+            <br><br>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <label for="phone">Telefono: </label>
+                <input type="number" name="phone" id="phone">
+                <br>
+                <label for="file">Archivo: </label>
+                <input type="file" name="file" id="file">
+            </fieldset>
+            <br>
+            <label for="comentarios">Comentarios: </label>
+            <br>
+            <textarea name="comentarios" rows="5" cols="30"></textarea>
+            <br>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+
+        </form>
+    </main>
+</body>
+</html>
