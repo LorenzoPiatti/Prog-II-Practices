@@ -1,0 +1,55 @@
+:root{
+    --color-primario: #007bff;
+    --color-fondo-header: var(--color-primario);
+    --color-texto-header: white;
+    --color-azul-body: rgba(0, 139, 191, 1); 
+    --color-gris-body: rgba(255, 255, 255, 0.4);
+    --color-logo-sombra: rgba(83, 175, 236, 0.5);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: var(--color-fondo-header);
+    color: var(--color-texto-header);
+    text-align: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: tlinear-gradien(to right, var(--color-azul-body),var(--color-gris-body), var(--color-azul-body));
+}
+
+h1{
+    font-size: 50px;
+    text-align: center;
+    background-image: url("/S1/Practice/img/perrito.jpeg");
+}
+
+footer{
+    background-color: var(--color-fondo-header);
+    color:var(--color-texto-header);
+    text-align: center;
+    padding: 20px;
+}
+
+.logo{
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+.prueba{
+    justify-content: center;
+    text-align: center;
+}
