@@ -1,0 +1,89 @@
+:root {
+    --color-primario: #007bff;
+    --color-fondo-header: var(--color-primario);
+    --color-texto-header: white;
+    --color-azul-body: rgba(0, 139, 191, 1); 
+    --color-gris-body: rgba(255, 255, 255, 0.4);
+    --color-logo-sombra: rgba(83, 175, 236, 0.5);
+    --color-footer: var(--color-azul-body)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(var(--color-azul-body), var(--color-gris-body));
+    color: var(--color-texto);
+}
+
+header {
+    background-color: var(--color-fondo-header);
+    color: var(--color-texto-header);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 20px;
+    margin-right: 20px;
+    box-shadow: 0px 0px 10px var(--color-logo-sombra);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+nav ul li {
+    margin: 0 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: var(--color-texto-header);
+    padding: 5px 10px;
+}
+
+.titulo {
+    font-size: 32px;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    margin: 20px 0;
+}
+
+#fondo {
+    background: url("../img/bandera.jpg") no-repeat center;
+    background-size: cover;
+    text-align: center;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenido {
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+    color: var(--color-texto);
+}
+
+#bloque-3 {
+    margin: 20px;
+    text-align: center;
+}
+
+footer {
+    background-color: var(--color-footer);
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
