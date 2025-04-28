@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="bariloche, audio, video, mapa, tabla">
+    <meta name="description" content="Explorá Bariloche con sonidos, videos, ubicación y una tabla de productos regionales.">
+    <title>Bariloche - Multimedia y Tabla</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="icon" href="../ico/icono.ico">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="galeria.html">Galería</a>
+            <a href="tabla.html">Tabla</a>
+            <a href="lista.html">Lista</a>
+            <a href="formulario.html">Formulario</a>
+            <a href="https://barilocheturismo.gob.ar" target="_blank">Sitio Web Oficial de Turismo</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Descubrí Bariloche</h1>
+
+        <section>
+            <h2>Multimedia</h2>
+            <div>
+                <p>Escuchá el sonido de la naturaleza de Bariloche:</p>
+                <audio src="../sounds/sonido-naturaleza.mp3" controls>
+                    Tu navegador no soporta el elemento de audio.
+                </audio>
+            </div>
+            <div>
+                <p>Viví la experiencia de la nieve en este video:</p>
+                <video src="../video/bariloche-nieve.mp4" controls width="400">
+                    Tu navegador no soporta el elemento de video.
+                </video>
+            </div>
+        </section>
+
+        <section>
+            <h2>Ubicación en el mapa</h2>
+            <div>
+                <p>Ubicación de San Carlos de Bariloche:</p>
+                <iframe src="https://www.google.com/maps?q=bariloche,+argentina&output=embed" width="600" height="450" style="border:0;" allowfullscreen loading="lazy"></iframe>
+            </div>
+            <div>
+                <p>Video turístico sobre Bariloche:</p>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/e_ZshQTzx24" title="Video de Bariloche" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <section>
+            <h2>Productos típicos de Bariloche</h2>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th>Categoría</th>
+                        <th>Producto 1</th>
+                        <th>Producto 2</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td rowspan="3">Chocolates</td>
+                        <td>Chocolate Amargo</td>
+                        <td>Chocolate con Almendras</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">Chocolate con Dulce de Leche</td>
+                    </tr>
+                    <tr>
+                        <td>Chocolate Blanco</td>
+                        <td>Chocolate con Licor</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">Cervezas Artesanales</td>
+                        <td>IPA</td>
+                        <td>Golden Ale</td>
+                    </tr>
+                    <tr>
+                        <td>Porter</td>
+                        <td>Scotch Ale</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>        
+    </main>
+</body>
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Contacto - Bariloche</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="galeria.html">Galería</a>
+            <a href="tabla.html">Clima</a>
+            <a href="lista.html">Qué hacer</a>
+            <a href="formulario.html">Contacto</a>
+            <a href="https://barilocheturismo.gob.ar" target="_blank">Sitio Web Oficial de Turismo</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Formulario de contacto turístico</h1>
+        <p>Completá el siguiente formulario si estás interesado en viajar a Bariloche o tenés alguna consulta sobre actividades, alojamiento o paseos.</p>
+
+        <form action="https://formspree.io/" method="post" target="_blank">
+            <label for="firstname">Nombre:</label>
+            <input type="text" name="firstname" id="firstname" required>
+            <br>
+
+            <label for="lastname">Apellido:</label>
+            <input type="text" name="lastname" id="lastname" required>
+            <br>
+
+            <label for="birthday">Fecha de nacimiento:</label>
+            <input type="date" name="birthday" id="birthday">
+            <br>
+
+            <label for="age">Edad:</label>
+            <input type="number" name="age" id="age" min="0">
+            <br>
+
+            <h2>Género:</h2>
+            <input type="radio" name="genero" value="masculino"> Masculino
+            <input type="radio" name="genero" value="femenino"> Femenino
+            <input type="radio" name="genero" value="nobinario"> No binario
+            <br>
+
+            <h2>Motivo del viaje:</h2>
+            <input type="radio" name="motivo" value="vacaciones"> Vacaciones
+            <input type="radio" name="motivo" value="aventura"> Aventura
+            <input type="radio" name="motivo" value="relax"> Relax
+            <br>
+
+            <h2>Actividades de interés:</h2>
+            <input type="checkbox" name="actividad" value="esqui"> Esquí
+            <input type="checkbox" name="actividad" value="senderismo"> Senderismo
+            <input type="checkbox" name="actividad" value="gastronomia"> Gastronomía
+            <input type="checkbox" name="actividad" value="paseos"> Paseos en barco
+            <br>
+
+            <h2>¿Qué lugares te gustaría visitar?</h2>
+            <input type="checkbox" name="lugares" value="cerro-catedral"> Cerro Catedral
+            <input type="checkbox" name="lugares" value="lago-nahuel"> Lago Nahuel Huapi
+            <input type="checkbox" name="lugares" value="circuito-chico"> Circuito Chico
+            <input type="checkbox" name="lugares" value="colonia-suiza"> Colonia Suiza
+            <br><br>
+
+            <fieldset>
+                <legend>Datos de contacto</legend>
+                <label for="phone">Teléfono:</label>
+                <input type="tel" name="phone" id="phone">
+                <br>
+                <label for="file">Adjuntar documento (opcional):</label>
+                <input type="file" name="file" id="file">
+            </fieldset>
+            <br>
+
+            <label for="comentarios">Consultas adicionales:</label><br>
+            <textarea name="comentarios" rows="5" cols="40" placeholder="Escribí tu mensaje aquí..."></textarea>
+            <br><br>
+
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </form>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 Descubrí Bariloche</p>
+    </footer>
+</body>
+</html>

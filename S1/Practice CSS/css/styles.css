@@ -1,0 +1,88 @@
+/* Estilos Globales */
+
+:root {
+    --color-primario: #007bff;
+    --color-fondo-header: var(--color-primario);
+    --color-texto-header: white;
+    --color-azul-body: rgba(0, 139, 191, 1); 
+    --color-gris-body: rgba(128, 128, 128, 0.4);
+    --color-logo-sombra: rgba(83, 175, 236, 0.5);
+    --color-footer: var(--color-azul-body)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--color-fondo-header);
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a {
+    color: var(--color-texto-header);
+    text-decoration: none;
+}
+
+body {
+    font-family: cursive, Arial, Helvetica, sans-serif;
+}
+
+/* Estilos Index */
+
+.container-p1 {
+    background-image: url("../img/bariloche.jpg");
+    color: black;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+}
+
+.container-p1 div {
+    padding-top: 100px;
+}
+
+.container-p2 {
+    background-color: var(--color-gris-body);
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.container-p3 {
+    background-color: var(--color-gris-body);
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+footer {
+    background-color: var(--color-footer);
+    text-align: center;
+    padding: 20px 0px;
+}
+
+/* Estilos Galeria */
+
+
+
+/* Estilos Tabla */
+
+
+
+/* Estilos Lista */
+
+
+
+/* Estilos Formulario */
+
