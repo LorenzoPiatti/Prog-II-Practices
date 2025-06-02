@@ -1,0 +1,15 @@
+.error-message{
+    display: inline-block;
+    font-weight: bold;
+    color: red;
+    padding: 5px;
+    margin: 10px;
+}
+
+#email-error{
+    display: inline-block;
+    font-weight: bold;
+    color: red;
+    padding: 5px;
+    margin: 10px;
+}
